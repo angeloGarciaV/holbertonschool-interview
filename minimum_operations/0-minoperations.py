@@ -3,7 +3,8 @@
 
 
 def minOperations(n):
-    """ Returns the minimum number of operations needed to result in exactly n H characters in the file."""
+    """ Returns the minimum number of operations needed to result in
+    exactly n H characters in the file."""
     operations = 0
     string = 1
     buffer = 0
