@@ -18,7 +18,9 @@ void print_sandpile(int grid[3][3])
 		for (j = 0; j < N_COLS; j++)
 		{
 			if (j)
+			{
 				printf(" ");
+			}
 			printf("%d", grid[i][j]);
 		}
 		printf("\n");
